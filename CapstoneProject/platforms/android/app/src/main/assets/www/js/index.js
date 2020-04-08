@@ -44,3 +44,13 @@ var app = {
 };
 
 app.initialize();
+
+function pageFootAndToe() {
+    window.location = "pages/foot-and-toe/home.html";
+}
+function pageAnkle(){
+    window.location = "pages/ankle/home.html";
+}
+
+document.getElementById("foot-and-toe").addEventListener("click", pageFootAndToe);
+document.getElementById("ankle").addEventListener("click", pageAnkle);
