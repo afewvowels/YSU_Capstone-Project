@@ -8,7 +8,7 @@
     <description>
     Senior project
     </description>
-    <icon src="mg/icon.png" />
+    <icon src="img/icon.png" />
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
