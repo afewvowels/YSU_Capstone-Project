@@ -8,7 +8,6 @@
     <description>
     Senior project
     </description>
-    <icon src="img/icon.png" />
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -18,5 +17,6 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
+    <icon src="www/img/logo.png" />
     <preference name="loglevel" value="DEBUG" />
 </widget>
