@@ -4,10 +4,11 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>Senior Project</name>
+    <name>Health App</name>
     <description>
     Senior project
     </description>
+    <icon src="mg/icon.png" />
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
