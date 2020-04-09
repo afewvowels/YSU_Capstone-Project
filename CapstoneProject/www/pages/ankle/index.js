@@ -10,7 +10,7 @@ function pageTalarTiltInversionTest() {
     window.location = "03-talar-tilt-inversion-test.html";
 }
 function pageTalarTiltEversionTest() {
-    window.location = "04-talar-tilt-Eversion-test.html";
+    window.location = "04-talar-tilt-eversion-test.html";
 }
 function pageSwingTest() {
     window.location = "05-swing-test.html";
