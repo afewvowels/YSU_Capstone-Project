@@ -51,6 +51,11 @@ function pageFootAndToe() {
 function pageAnkle(){
     window.location = "pages/ankle/home.html";
 }
+function pageCervicalSpine(){
+
+    window.location="pages/cervical-spine/home.html";
+}
 
 document.getElementById("foot-and-toe").addEventListener("click", pageFootAndToe);
 document.getElementById("ankle").addEventListener("click", pageAnkle);
+document.getElementById("cervical-spine").addEventListener("click",pageCervicalSpine);
