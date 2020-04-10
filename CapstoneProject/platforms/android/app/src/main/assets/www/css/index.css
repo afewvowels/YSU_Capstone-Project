@@ -40,7 +40,8 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    width: 30rem;
+    max-width: 30rem;
+    min-width: 20rem;
 }
 
 .headings-title {
@@ -80,7 +81,7 @@ body {
     50% { opacity: 0.4; }
     to { opacity: 1.0; }
 }
-
+ 
 @-webkit-keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }

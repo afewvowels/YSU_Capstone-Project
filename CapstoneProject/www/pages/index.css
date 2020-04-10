@@ -17,7 +17,7 @@
  * under the License.
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ /* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 
 body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
@@ -44,10 +44,6 @@ body {
     font-size: 2rem;
 }
 
-.headings-wrapper {
-
-}
-
 .heading {
     font-size: 1.25rem;
     background-color: #3c525e;
@@ -68,8 +64,7 @@ body {
 
 @media only screen {
     .app {
-        max-width: 30rem;
-        min-width: 20rem;
+        width: 30rem;
     }
 }
 
