@@ -38,9 +38,14 @@ body {
     flex-direction: column;
 }
 
+h2 {
+    font-size: 1.6rem;
+}
+
 /* Portrait layout (default) */
 .app {
-    width: 30rem;
+    max-width: 30rem;
+    min-width: 20rem;
 }
 
 .headings-title {
@@ -62,15 +67,6 @@ body {
     margin: 0 0 .75rem 0;
 }
 
-.heading:active {
-    background-color: #ffffff;
-    color: #3c525e;
-}
-
-.heading:hover {
-    box-shadow: inset 0px 0px 0px 1.5px white;
-}
-
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
 }
@@ -80,7 +76,7 @@ body {
     50% { opacity: 0.4; }
     to { opacity: 1.0; }
 }
-
+ 
 @-webkit-keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }
