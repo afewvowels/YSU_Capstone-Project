@@ -44,3 +44,9 @@ var app = {
 };
 
 app.initialize();
+
+function pageFootAndToe() {
+    window.location = "pages/foot-and-toe/home.html";
+}
+
+document.getElementById("foot-and-toe").addEventListener("click", pageFootAndToe);

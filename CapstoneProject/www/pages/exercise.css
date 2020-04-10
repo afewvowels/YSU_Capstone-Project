@@ -38,19 +38,14 @@ body {
     flex-direction: column;
 }
 
-/* Portrait layout (default) */
-.app {
-    width: 30rem;
+h2 {
+    font-size: 1.6rem;
 }
 
 .headings-title {
     margin: 0;
     padding: 1rem 0;
     font-size: 2rem;
-}
-
-.headings-wrapper {
-
 }
 
 .heading {
@@ -62,17 +57,12 @@ body {
     margin: 0 0 .75rem 0;
 }
 
-.heading:active {
-    background-color: #ffffff;
-    color: #3c525e;
-}
-
-.heading:hover {
-    box-shadow: inset 0px 0px 0px 1.5px white;
-}
-
 /* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+@media only screen {
+    .app {
+        max-width: 30rem;
+        min-width: 20rem;
+    }
 }
 
 @keyframes fade {
