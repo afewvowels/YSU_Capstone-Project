@@ -11,7 +11,7 @@ function pageCervicalSpine() {
 }
 
 function pageKnee() {
-    // window.location = "pages/knee/home.html";
+     window.location = "pages/knee/home.html";
 }
 
 function pageHipAndPelvis() {
@@ -33,6 +33,7 @@ function pageElbow() {
 function pageWristAndHand() {
     // window.location = "pages/wrist-and-hand/home.html";
 }
+
 
 document.getElementById("foot-and-toe").addEventListener("click", pageFootAndToe);
 document.getElementById("ankle").addEventListener("click", pageAnkle);

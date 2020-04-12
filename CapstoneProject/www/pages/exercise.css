@@ -19,7 +19,7 @@
 
  /* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 
-body {
+ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
@@ -36,36 +36,12 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-transform: capitalize;
-}
-
-h3 {
-    margin: 0 0 .35rem 0;
-    font-size: 1.35rem;
-}
-
-p, ol, ul {
-    margin: 0;
-    font-size: 1.25rem;
-}
-
-ol, ul {
-    padding-left: 1.5rem;
-}
-
-li {
-    margin: 0 0 .35rem 0;
 }
 
 .headings-title {
-    margin: 1rem 0 0.5rem 0;
-    padding: 0;
+    margin: 0;
+    padding: 1rem 0;
     font-size: 2rem;
-}
-
-.exercise-title {
-    font-size: 1.6rem;
-    margin: 0 0 .5rem 0;
 }
 
 .heading {
@@ -77,10 +53,18 @@ li {
     margin: 0 0 .75rem 0;
 }
 
-/* Landscape layout (with min-width) */
+.heading:active {
+    background-color: #ffffff;
+    color: #3c525e;
+}
+
+.heading:hover {
+    box-shadow: inset 0px 0px 0px 1.5px white;
+}
+
 @media only screen {
     .app {
-        width: 30rem;
+        width: 25rem;
     }
 }
 
