@@ -1,85 +1,80 @@
-function pageCraigsTest() {
-    window.location = "01-craigs-test.html";
+function pageBeevorsSign() {
+    window.location = "01-beevors-sign.html";
+}
+
+function pageSpringTest() {
+    window.location = '02-spring-test.html';
+}
+
+function pageValsalvaTest() {
+    window.location = '03-valsalva-test.html';
+}
+
+function pageKernigsTest() {
+    window.location = '04-kernigs-test.html';
+}
+
+function pageBrudzinskisTest() {
+    window.location = '05-brudzinskis-test.html';
+}
+
+function pageStraightLegRaiseTest() {
+    window.location = '06-straight-leg-raise-test.html';
+}
+
+function pageWellsStraightLegTest() {
+    window.location = '07-wells-straight-leg-test.html';
+}
+
+function pageSlumpTest() {
+    window.location = '08-slump-test.html';
 }
 
 function pageQuadrantTest() {
-    window.location = '02-quadrant-test.html';
+    window.location = '09-quadrant-test.html';
 }
 
-function pageLasequesTest() {
-    window.location = '03-laseques-test.html';
+function pageMilgramsTest() {
+    window.location = '10-milgrams-test.html';
 }
 
-function pagePatricksTest() {
-    window.location = '04-patricks-test.html';
+function pageHooversTest() {
+    window.location = '11-hoovers-test.html';
 }
 
-function pageTrendelenbergTest() {
-    window.location = '05-trendelenberg-test.html';
+function pageFemoralNerveTractionTest() {
+    window.location = '12-femoral-nerve-traction-test.html';
 }
 
-function pageObersTest() {
-    window.location = '06-obers-test.html';
+function pageTensionSign() {
+    window.location = '13-tension-sign.html';
 }
 
-function pagePriformisTest() {
-    window.location = '07-priformis-test.html';
+function pageStorkTest() {
+    window.location = '14-stork-test.html';
 }
 
-function pageThomasTest() {
-    window.location = '08-thomas-test.html';
+function pageSIJointCompression() {
+    window.location = '15-si-joint-compression.html';
 }
 
-function pageElysTest() {
-    window.location = '09-elys-test.html';
+function pageSIJointDistraction() {
+    window.location = '16-si-joint-distraction.html';
 }
 
-function pageFemoralNerve() {
-    window.location = '10-femoral-nerve-traction-test.html';
-}
-
-function pageGilletTest() {
-    window.location = '11-gillet-test.html';
-}
-
-function pageSIJointStressTest() {
-    window.location = '12-si-joint-stress-test.html';
-}
-
-function pageSquishTest() {
-    window.location = '13-squish-test.html';
-}
-
-function pageYeomansTest() {
-    window.location = '14-yeomans-test.html';
-}
-
-function pageGaenslensTest() {
-    window.location = '15-gaenslens-test.html';
-}
-
-function pageLongSittingTest() {
-    window.location = '16-long-sitting-test.html';
-}
-
-function pageAnteriorImpingementTest() {
-    window.location = '17-anterior-impingement-test.html';
-}
-
-document.getElementById("craigs-test").addEventListener("click", pageCraigsTest);
+document.getElementById("beevors-sign").addEventListener("click", pageBeevorsSign);
+document.getElementById("spring-test").addEventListener("click", pageSpringTest);
+document.getElementById("valsalva-test").addEventListener("click", pageValsalvaTest);
+document.getElementById("kernigs-test").addEventListener("click", pageKernigsTest);
+document.getElementById("brudzinskis-test").addEventListener("click", pageBrudzinskisTest);
+document.getElementById("straight-leg-raise-test").addEventListener("click", pageStraightLegRaiseTest);
+document.getElementById("wells-straight-leg-test").addEventListener("click", pageWellsStraightLegTest);
+document.getElementById("slump-test").addEventListener("click", pageSlumpTest);
 document.getElementById("quadrant-test").addEventListener("click", pageQuadrantTest);
-document.getElementById("laseques-test").addEventListener("click", pageLasequesTest);
-document.getElementById("patricks-test").addEventListener("click", pagePatricksTest);
-document.getElementById("trendelenberg-test").addEventListener("click", pageTrendelenbergTest);
-document.getElementById("obers-test").addEventListener("click", pageObersTest);
-document.getElementById("pirformis-test").addEventListener("click", pagePriformisTest);
-document.getElementById("thomas-test").addEventListener("click", pageThomasTest);
-document.getElementById("elys-test").addEventListener("click", pageElysTest);
-document.getElementById("femoral-nerve-traction-test").addEventListener("click", pageFemoralNerve);
-document.getElementById("gillet-test").addEventListener("click", pageGilletTest);
-document.getElementById("si-joint-stress-test").addEventListener("click", pageSIJointStressTest);
-document.getElementById("squish-test").addEventListener("click", pageSquishTest);
-document.getElementById("yeomans-test").addEventListener("click", pageYeomansTest);
-document.getElementById("gaenslens-test").addEventListener("click", pageGaenslensTest);
-document.getElementById("long-sitting-test").addEventListener("click", pageLongSittingTest);
-document.getElementById("anterior-impingement-test").addEventListener("click", pageAnteriorImpingementTest);
+document.getElementById("milgrams-test").addEventListener("click", pageMilgramsTest);
+document.getElementById("hoovers-test").addEventListener("click", pageHooversTest);
+document.getElementById("femoral-nerve-traction-test").addEventListener("click", pageFemoralNerveTractionTest);
+document.getElementById("tension-sign").addEventListener("click", pageTensionSign);
+document.getElementById("stork-test").addEventListener("click", pageStorkTest);
+document.getElementById("si-joint-compression").addEventListener("click", pageSIJointCompression);
+document.getElementById("si-joint-distraction").addEventListener("click", pageSIJointDistraction);
