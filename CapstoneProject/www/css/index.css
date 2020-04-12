@@ -38,6 +38,12 @@ body {
     flex-direction: column;
 }
 
+.app {
+    width: 100%;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+}
+
 .headings-title {
     margin: 0;
     padding: 1rem 0;
@@ -62,10 +68,10 @@ body {
     box-shadow: inset 0px 0px 0px 1.5px white;
 }
 
-/* Landscape layout (with min-width) */
-@media only screen {
+@media only screen and (min-width: 800px) {
     .app {
-        width: 30rem;
+        padding: 0;
+        width: 800px;
     }
 }
 

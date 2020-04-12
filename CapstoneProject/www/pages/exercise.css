@@ -57,6 +57,12 @@ li {
     margin: 0 0 .35rem 0;
 }
 
+.app {
+    width: 100%;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+}
+
 .headings-title {
     margin: 1rem 0 0.5rem 0;
     padding: 0;
@@ -77,10 +83,10 @@ li {
     margin: 0 0 .75rem 0;
 }
 
-/* Landscape layout (with min-width) */
-@media only screen {
+@media only screen and (min-width: 640px) {
     .app {
-        width: 30rem;
+        padding: 0;
+        width: 640px;
     }
 }
 
