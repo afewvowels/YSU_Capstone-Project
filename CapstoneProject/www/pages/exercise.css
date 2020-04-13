@@ -38,6 +38,12 @@
     flex-direction: column;
 }
 
+.app {
+    width: 100%;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+}
+
 .headings-title {
     margin: 0;
     padding: 1rem 0;
@@ -53,18 +59,10 @@
     margin: 0 0 .75rem 0;
 }
 
-.heading:active {
-    background-color: #ffffff;
-    color: #3c525e;
-}
-
-.heading:hover {
-    box-shadow: inset 0px 0px 0px 1.5px white;
-}
-
-@media only screen {
+@media only screen and (min-width: 640px) {
     .app {
-        width: 25rem;
+        padding: 0;
+        width: 640px;
     }
 }
 
@@ -73,7 +71,7 @@
     50% { opacity: 0.4; }
     to { opacity: 1.0; }
 }
- 
+
 @-webkit-keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }

@@ -1,61 +1,45 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
-var app = {
-    // Application Constructor
-    initialize: function() {
-        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
-    },
-
-    // deviceready Event Handler
-    //
-    // Bind any cordova events here. Common events are:
-    // 'pause', 'resume', etc.
-    onDeviceReady: function() {
-        this.receivedEvent('deviceready');
-    },
-
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
-    }
-};
-
-app.initialize();
-
 function pageFootAndToe() {
     window.location = "pages/foot-and-toe/home.html";
 }
-function pageAnkle(){
+
+function pageAnkle() {
     window.location = "pages/ankle/home.html";
 }
-function pageCervicalSpine(){
 
-    window.location="pages/cervical-spine/home.html";
+function pageCervicalSpine() {
+    window.location = "pages/cervical-spine/home.html";
+}
+
+function pageKnee() {
+    // window.location = "pages/knee/home.html";
+}
+
+function pageHipAndPelvis() {
+    window.location = "pages/hip-and-pelvis/home.html";
+}
+
+function pageSpine() {
+    // window.location = "pages/spine/home.html";
+}
+
+function pageShoulder() {
+    // window.location = "pages/shoulder/home.html";
+}
+
+function pageElbow() {
+    window.location = "pages/elbow/home.html";
+}
+
+function pageWristAndHand() {
+    // window.location = "pages/wrist-and-hand/home.html";
 }
 
 document.getElementById("foot-and-toe").addEventListener("click", pageFootAndToe);
 document.getElementById("ankle").addEventListener("click", pageAnkle);
-document.getElementById("cervical-spine").addEventListener("click",pageCervicalSpine);
+document.getElementById("cervical-spine").addEventListener("click", pageCervicalSpine);
+document.getElementById("knee").addEventListener("click",pageKnee);
+document.getElementById("hip-and-pelvis").addEventListener("click", pageHipAndPelvis);
+document.getElementById("spine").addEventListener("click", pageSpine);
+document.getElementById("shoulder").addEventListener("click", pageShoulder);
+document.getElementById("elbow").addEventListener("click", pageElbow);
+document.getElementById("wrist-and-hand").addEventListener("click", pageWristAndHand);

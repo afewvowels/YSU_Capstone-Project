@@ -17,7 +17,7 @@
  * under the License.
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ /* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 
 body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
@@ -36,6 +36,12 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.app {
+    width: 100%;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
 }
 
 .headings-title {
@@ -62,10 +68,10 @@ body {
     box-shadow: inset 0px 0px 0px 1.5px white;
 }
 
-@media only screen {
+@media only screen and (min-width: 800px) {
     .app {
-        max-width: 30rem;
-        min-width: 20rem;
+        padding: 0;
+        width: 800px;
     }
 }
 

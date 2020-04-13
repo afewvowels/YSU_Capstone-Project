@@ -38,6 +38,12 @@ body {
     flex-direction: column;
 }
 
+.app {
+    width: 100%;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+}
+
 .headings-title {
     margin: 0;
     padding: 1rem 0;
@@ -62,9 +68,10 @@ body {
     box-shadow: inset 0px 0px 0px 1.5px white;
 }
 
-@media only screen {
+@media only screen and (min-width: 800px) {
     .app {
-        width: 25rem;
+        padding: 0;
+        width: 800px;
     }
 }
 
@@ -73,7 +80,7 @@ body {
     50% { opacity: 0.4; }
     to { opacity: 1.0; }
 }
- 
+
 @-webkit-keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }
