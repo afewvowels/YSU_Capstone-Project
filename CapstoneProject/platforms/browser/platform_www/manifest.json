@@ -1,7 +1,7 @@
 {
-  "name": "HelloCordova",
-  "short_name": "HelloCordova",
-  "description": "Description of your app from template",
+  "name": "Health App",
+  "short_name": "Health App",
+  "description": "A reference list of exams to determine sports-related patient injuries",
   "start_url": "index.html",
   "scope": "index.html",
   "icons": [

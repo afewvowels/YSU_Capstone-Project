@@ -11,7 +11,11 @@ function pageCervicalSpine() {
 }
 
 function pageKnee() {
-    // window.location = "pages/knee/home.html";
+    window.location = "pages/knee/home.html";
+}
+
+function pageHeadAndFace() {
+    window.location = "pages/head-and-face/home.html";
 }
 
 function pageHipAndPelvis() {
@@ -19,11 +23,11 @@ function pageHipAndPelvis() {
 }
 
 function pageSpine() {
-    // window.location = "pages/spine/home.html";
+    window.location = "pages/spine/home.html";
 }
 
 function pageShoulder() {
-    // window.location = "pages/shoulder/home.html";
+    window.location = "pages/shoulder/home.html";
 }
 
 function pageElbow() {
@@ -31,12 +35,14 @@ function pageElbow() {
 }
 
 function pageWristAndHand() {
-    // window.location = "pages/wrist-and-hand/home.html";
+    window.location = "pages/wrist-and-hand/home.html";
 }
+
 
 document.getElementById("foot-and-toe").addEventListener("click", pageFootAndToe);
 document.getElementById("ankle").addEventListener("click", pageAnkle);
 document.getElementById("cervical-spine").addEventListener("click", pageCervicalSpine);
+document.getElementById("head-and-face").addEventListener("click", pageHeadAndFace);
 document.getElementById("knee").addEventListener("click",pageKnee);
 document.getElementById("hip-and-pelvis").addEventListener("click", pageHipAndPelvis);
 document.getElementById("spine").addEventListener("click", pageSpine);
