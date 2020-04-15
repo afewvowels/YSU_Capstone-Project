@@ -1,8 +1,8 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "Health App",
-  "short_name": "Health App",
+  "name": "Special Test Guide",
+  "short_name": "Special Test Guide",
   "version": "io.cordova.hellocordova",
   "description": "Senior project",
   "icons": [],

@@ -42,9 +42,9 @@ function pageHooversTest() {
     window.location = '11-hoovers-test.html';
 }
 
-function pageFemoralNerveTractionTest() {
-    window.location = '12-femoral-nerve-traction-test.html';
-}
+// function pageFemoralNerveTractionTest() {
+//     window.location = '12-femoral-nerve-traction-test.html';
+// }
 
 function pageTensionSign() {
     window.location = '13-tension-sign.html';
@@ -54,13 +54,13 @@ function pageStorkTest() {
     window.location = '14-stork-test.html';
 }
 
-function pageSIJointCompression() {
-    window.location = '15-si-joint-compression.html';
-}
+// function pageSIJointCompression() {
+//     window.location = '15-si-joint-compression.html';
+// }
 
-function pageSIJointDistraction() {
-    window.location = '16-si-joint-distraction.html';
-}
+// function pageSIJointDistraction() {
+//     window.location = '16-si-joint-distraction.html';
+// }
 
 document.getElementById("beevors-sign").addEventListener("click", pageBeevorsSign);
 document.getElementById("spring-test").addEventListener("click", pageSpringTest);
@@ -73,8 +73,8 @@ document.getElementById("slump-test").addEventListener("click", pageSlumpTest);
 document.getElementById("quadrant-test").addEventListener("click", pageQuadrantTest);
 document.getElementById("milgrams-test").addEventListener("click", pageMilgramsTest);
 document.getElementById("hoovers-test").addEventListener("click", pageHooversTest);
-document.getElementById("femoral-nerve-traction-test").addEventListener("click", pageFemoralNerveTractionTest);
+// document.getElementById("femoral-nerve-traction-test").addEventListener("click", pageFemoralNerveTractionTest);
 document.getElementById("tension-sign").addEventListener("click", pageTensionSign);
 document.getElementById("stork-test").addEventListener("click", pageStorkTest);
-document.getElementById("si-joint-compression").addEventListener("click", pageSIJointCompression);
-document.getElementById("si-joint-distraction").addEventListener("click", pageSIJointDistraction);
+// document.getElementById("si-joint-compression").addEventListener("click", pageSIJointCompression);
+// document.getElementById("si-joint-distraction").addEventListener("click", pageSIJointDistraction);
