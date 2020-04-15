@@ -61,7 +61,10 @@ li {
     padding: 0 0.5rem;
     box-sizing: border-box;
 }
-
+.responsive {
+    width: 100%;
+    height: auto;
+  }
 .exercise-title {
     font-size: 1.6rem;
     margin: 0 0 .5rem 0;
