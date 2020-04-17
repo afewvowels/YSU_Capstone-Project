@@ -44,6 +44,16 @@ body {
     box-sizing: border-box;
 }
 
+.header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template:
+        "title back" auto
+        / auto auto;
+}
+
 .headings-title {
     margin: 0;
     padding: 1rem 0;
@@ -62,10 +72,24 @@ body {
 .heading:active {
     background-color: #ffffff;
     color: #3c525e;
+    cursor: pointer;
 }
 
 .heading:hover {
     box-shadow: inset 0px 0px 0px 1.5px white;
+    cursor: pointer;
+}
+
+.headings {
+    grid-area: title;
+}
+
+#back-button-home, #back-button-system {
+    grid-area: back;
+    align-self: center;
+    justify-self: end;
+    margin: 0;
+    padding: 0.75rem 1rem;
 }
 
 @media only screen and (min-width: 640px) {
