@@ -38,6 +38,12 @@ body {
     flex-direction: column;
 }
 
+footer {
+    margin: 1rem 3rem;
+    line-height: 1.25rem;
+    text-align: center;
+}
+
 .app {
     width: 100%;
     padding: 0 0.5rem;
