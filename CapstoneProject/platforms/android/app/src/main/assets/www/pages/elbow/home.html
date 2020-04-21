@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-        <link rel="stylesheet" type="text/css" href="../index.css">
-        <!-- BEGIN Favicon -->
+
+<head>
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="../index.css">
+    <!-- BEGIN Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="../../img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../../img/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../../img/favicon/apple-icon-72x72.png">
@@ -26,28 +28,33 @@
     <meta name="msapplication-TileImage" content="../../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- END Favicon -->
-    <title>Elbow | Health App</title>
-    </head>
-    <body>
-        <div class="app">
-            <div class="header">
-                <div class="headings">
-                    <h1 class="headings-title">Elbow</h1>
-            <div class="headings-wrapper">
-                <div id="valgus-stress-test" class="heading">Valgus Stress Test</div>
-                <div id="varus-stress-test" class="heading">Varus Stress Test</div>
-                <div id="moving-valgus-stress-test" class="heading">Moving Valgus Stress Test</div>
-                <div id="posterolateral" class="heading">Posterolateral Rotary Instability Test (Pivot Shift)</div>
-                <div id="lateral-epicondylitis" class="heading">Test for Lateral Epicondylitis</div>
-                <div id="medial-epicondylitis" class="heading">Test for Medial Epicondylitis</div>
-                <div id="tinels-sign" class="heading">Tinel's Sign</div>
-                <div id="pinch-grip-test" class="heading">Pinch Grip Test</div>
-                <div id="chair-test" class="heading">Chair Test</div>
-                <div id="push-up-test" class="heading">Push Up Test</div>
-            </div>
-             <footer>&copy;2020 Dr. Morgan Bagley, Dr. Abdu Arslanyilmaz, Kyle Hegedus, Alek Monger, Derek Bodo, Dillon Freeman, Keith Smith</footer>
+    <title>Elbow | Special Test Guide</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+            <h1 class="headings-title">Elbow</h1>
+            <div id="back-button-home" class="back-button heading">Back</div>
         </div>
-        <script type="text/javascript" src="../cordova.js"></script>
-        <script type="text/javascript" src="../back-system.js"></script>
-    </body>
+        <div class="headings-wrapper">
+            <div id="valgus-stress-test" class="heading">Valgus Stress Test</div>
+            <div id="varus-stress-test" class="heading">Varus Stress Test</div>
+            <div id="moving-valgus-stress-test" class="heading">Moving Valgus Stress Test</div>
+            <div id="posterolateral" class="heading">Posterolateral Rotary Instability Test (Pivot Shift)</div>
+            <div id="lateral-epicondylitis" class="heading">Test for Lateral Epicondylitis</div>
+            <div id="medial-epicondylitis" class="heading">Test for Medial Epicondylitis</div>
+            <div id="tinels-sign" class="heading">Tinel's Sign</div>
+            <div id="pinch-grip-test" class="heading">Pinch Grip Test</div>
+            <div id="chair-test" class="heading">Chair Test</div>
+            <div id="push-up-test" class="heading">Push Up Test</div>
+        </div>
+        <footer>&copy;2020 Dr. Morgan Bagley, Dr. Abdu Arslanyilmaz, Kyle Hegedus, Alek Monger, Derek Bodo, Dillon
+            Freeman, Keith Smith</footer>
+    </div>
+    <script type="text/javascript" src="../cordova.js"></script>
+    <script type="text/javascript" src="../back-home.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
 </html>

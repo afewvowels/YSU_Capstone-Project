@@ -38,10 +38,26 @@ body {
     flex-direction: column;
 }
 
+footer {
+    margin: 1rem 3rem;
+    line-height: 1.25rem;
+    text-align: center;
+}
+
 .app {
     width: 100%;
     padding: 0 0.5rem;
     box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template:
+        "title back" auto
+        / auto auto;
 }
 
 .headings-title {
@@ -62,10 +78,24 @@ body {
 .heading:active {
     background-color: #ffffff;
     color: #3c525e;
+    cursor: pointer;
 }
 
 .heading:hover {
     box-shadow: inset 0px 0px 0px 1.5px white;
+    cursor: pointer;
+}
+
+.headings {
+    grid-area: title;
+}
+
+#back-button-home, #back-button-system {
+    grid-area: back;
+    align-self: center;
+    justify-self: end;
+    margin: 0;
+    padding: 0.75rem 1rem;
 }
 
 @media only screen and (min-width: 640px) {

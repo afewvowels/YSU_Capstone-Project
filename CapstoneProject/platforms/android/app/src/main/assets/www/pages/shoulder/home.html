@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-        <link rel="stylesheet" type="text/css" href="../index.css">
-        <!-- BEGIN Favicon -->
+
+<head>
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="../index.css">
+    <!-- BEGIN Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="../../img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../../img/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../../img/favicon/apple-icon-72x72.png">
@@ -26,39 +28,44 @@
     <meta name="msapplication-TileImage" content="../../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- END Favicon -->
-    <title>Shoulder | Health App</title>
-    </head>
-    <body>
-        <div class="app">
-            <div class="header">
-                <div class="headings">
-                    <h1 class="headings-title">Shoulder</h1>
-            <div class="headings-wrapper">
-                <div id="apprehension-test" class="heading">Apprehension Test</div>
-                <div id="relocation-test" class="heading">Relocation Test</div>
-                <div id="surprise-test" class="heading">Surprise Test (Anterior Release Test)</div>
-                <div id="acromioclavicular-traction" class="heading">Acromioclavicular Traction Test</div>
-                <div id="acromioclavicular-compression" class="heading">Acromioclavicular Compression Test</div>
-                <div id="opposite-shoulder" class="heading">Opposite Shoulder Compression Test</div>
-                <div id="piano-key-sign" class="heading">Piano Key Sign</div>
-                <div id="posterior-apprehension" class="heading">Posterior Apprehension Test</div>
-                <div id="jerk-test" class="heading">Jerk Test</div>
-                <div id="sulcus-sign" class="heading">Sulcus Sign</div>
-                <div id="neer-impingement" class="heading">Neer Impingement Test</div>
-                <div id="hawkins-kennedy" class="heading">Hawkins-Kennedy Test</div>
-                <div id="drop-arm" class="heading">Drop Arm Test</div>
-                <div id="empty-can" class="heading">Empty Can Test</div>
-                <div id="open-can" class="heading">Open Can Test</div>
-                <div id="yergasons" class="heading">Yergason's Test</div>
-                <div id="speeds" class="heading">Speed's Test</div>
-                <div id="ludingtons" class="heading">Ludington's Test</div>
-                <div id="obrien" class="heading">O'Brien Test (Active compression test)</div>
-                <div id="grind" class="heading">Grind Test</div>
-                <div id="gerber" class="heading">Gerber Lift-Off Test</div>
-            </div>
-             <footer>&copy;2020 Dr. Morgan Bagley, Dr. Abdu Arslanyilmaz, Kyle Hegedus, Alek Monger, Derek Bodo, Dillon Freeman, Keith Smith</footer>
+    <title>Shoulder | Special Test Guide</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+            <h1 class="headings-title">Shoulder</h1>
+            <div id="back-button-home" class="back-button heading">Back</div>
         </div>
-        <script type="text/javascript" src="../cordova.js"></script>
-        <script type="text/javascript" src="../back-system.js"></script>
-    </body>
+        <div class="headings-wrapper">
+            <div id="apprehension-test" class="heading">Apprehension Test</div>
+            <div id="relocation-test" class="heading">Relocation Test</div>
+            <div id="surprise-test" class="heading">Surprise Test (Anterior Release Test)</div>
+            <div id="acromioclavicular-traction" class="heading">Acromioclavicular Traction Test</div>
+            <div id="acromioclavicular-compression" class="heading">Acromioclavicular Compression Test</div>
+            <div id="opposite-shoulder" class="heading">Opposite Shoulder Compression Test</div>
+            <div id="piano-key-sign" class="heading">Piano Key Sign</div>
+            <div id="posterior-apprehension" class="heading">Posterior Apprehension Test</div>
+            <div id="jerk-test" class="heading">Jerk Test</div>
+            <div id="sulcus-sign" class="heading">Sulcus Sign</div>
+            <div id="neer-impingement" class="heading">Neer Impingement Test</div>
+            <div id="hawkins-kennedy" class="heading">Hawkins-Kennedy Test</div>
+            <div id="drop-arm" class="heading">Drop Arm Test</div>
+            <div id="empty-can" class="heading">Empty Can Test</div>
+            <div id="open-can" class="heading">Open Can Test</div>
+            <div id="yergasons" class="heading">Yergason's Test</div>
+            <div id="speeds" class="heading">Speed's Test</div>
+            <div id="ludingtons" class="heading">Ludington's Test</div>
+            <div id="obrien" class="heading">O'Brien Test (Active compression test)</div>
+            <div id="grind" class="heading">Grind Test</div>
+            <div id="gerber" class="heading">Gerber Lift-Off Test</div>
+        </div>
+        <footer>&copy;2020 Dr. Morgan Bagley, Dr. Abdu Arslanyilmaz, Kyle Hegedus, Alek Monger, Derek Bodo, Dillon
+            Freeman, Keith Smith</footer>
+    </div>
+    <script type="text/javascript" src="../cordova.js"></script>
+    <script type="text/javascript" src="../back-home.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
 </html>

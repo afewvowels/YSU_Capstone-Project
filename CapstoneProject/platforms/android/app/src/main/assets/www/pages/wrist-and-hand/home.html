@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-        <link rel="stylesheet" type="text/css" href="../index.css">
-        <!-- BEGIN Favicon -->
+
+<head>
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="../index.css">
+    <!-- BEGIN Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="../../img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../../img/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../../img/favicon/apple-icon-72x72.png">
@@ -26,27 +28,32 @@
     <meta name="msapplication-TileImage" content="../../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- END Favicon -->
-    <title>Wrist & Hand | Health App</title>
-    </head>
-    <body>
-        <div class="app">
-            <div class="header">
-                <div class="headings">
-                    <h1 class="headings-title">Wrist & Hand</h1>
-            <div class="headings-wrapper">
-                <div id="valgus-wrist" class="heading">Valgus Stress Test (Wrist)</div>
-                <div id="varus-wrist" class="heading">Varus Stress Test (Wrist)</div>
-                <div id="wrist-glide" class="heading">Wrist Glide Tests</div>
-                <div id="valgus-ip" class="heading">Valgus Stess Test (IP Joint)</div>
-                <div id="varus-ip" class="heading">Varus Stress Test (IP Joint)</div>
-                <div id="collateral-ligaments" class="heading">Laxity of the Collateral Ligaments Test (Thumb)</div>
-                <div id="phalens-test" class="heading">Phalen's Test</div>
-                <div id="finkelsteins-test" class="heading">Finkelstein's Test</div>
-                <div id="watson-test" class="heading">Watson Test</div>
-            </div>
-             <footer>&copy;2020 Dr. Morgan Bagley, Dr. Abdu Arslanyilmaz, Kyle Hegedus, Alek Monger, Derek Bodo, Dillon Freeman, Keith Smith</footer>
+    <title>Wrist & Hand | Special Test Guide</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+            <h1 class="headings-title">Wrist & Hand</h1>
+            <div id="back-button-home" class="back-button heading">Back</div>
         </div>
-        <script type="text/javascript" src="../cordova.js"></script>
-        <script type="text/javascript" src="../back-system.js"></script>
-    </body>
+        <div class="headings-wrapper">
+            <div id="valgus-wrist" class="heading">Valgus Stress Test (Wrist)</div>
+            <div id="varus-wrist" class="heading">Varus Stress Test (Wrist)</div>
+            <div id="wrist-glide" class="heading">Wrist Glide Test</div>
+            <div id="valgus-ip" class="heading">Valgus Stess Test (IP Joint)</div>
+            <div id="varus-ip" class="heading">Varus Stress Test (IP Joint)</div>
+            <div id="collateral-ligaments" class="heading">Laxity of the Collateral Ligaments Test (Thumb)</div>
+            <div id="phalens-test" class="heading">Phalen's Test</div>
+            <div id="finkelsteins-test" class="heading">Finkelstein's Test</div>
+            <div id="watson-test" class="heading">Watson Test</div>
+        </div>
+        <footer>&copy;2020 Dr. Morgan Bagley, Dr. Abdu Arslanyilmaz, Kyle Hegedus, Alek Monger, Derek Bodo, Dillon
+            Freeman, Keith Smith</footer>
+    </div>
+    <script type="text/javascript" src="../cordova.js"></script>
+    <script type="text/javascript" src="../back-home.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
 </html>

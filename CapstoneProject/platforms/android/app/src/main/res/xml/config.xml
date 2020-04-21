@@ -4,7 +4,7 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>Health App</name>
+    <name>Special Test Guide</name>
     <description>
     Senior project
     </description>
